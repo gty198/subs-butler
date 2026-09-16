@@ -103,6 +103,10 @@ Remote access: `cloudflared tunnel --url http://127.0.0.1:8899`.
 python3 -m unittest discover -s tests -t .      # 63 tests, ~4s
 ```
 
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md).
+
 ## License
 
 MIT

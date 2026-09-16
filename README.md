@@ -212,6 +212,10 @@ python3 -m unittest tests.test_panel -v           # 只跑面板/HTTP 那批
 不带 `?t=令牌` 的请求一律 401；没访问过带令牌链接的设备也拿不到 cookie。
 所以别把带令牌的链接发到群里。心里没底就把 `.panel_token` 删掉重启（所有旧链接立即失效）。
 
+## 更新日志
+
+见 [CHANGELOG.md](CHANGELOG.md)。
+
 ## License
 
 MIT
