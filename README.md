@@ -1,5 +1,10 @@
 # 订阅管家 · subs-butler
 
+[![tests](https://github.com/gty198/subs-butler/actions/workflows/tests.yml/badge.svg)](https://github.com/gty198/subs-butler/actions/workflows/tests.yml)
+[![license: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
+[![dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](subs.py)
+
 > 本地订阅 / 会员续费管理器：**CLI + 网页面板 + 到期提醒**，一个数据文件，零依赖，不联网。
 
 `subs.py` 管数据，`panel.py` 给一个能看能改的本地网页（手机也能开），

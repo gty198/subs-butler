@@ -1,5 +1,10 @@
 # subs-butler
 
+[![tests](https://github.com/gty198/subs-butler/actions/workflows/tests.yml/badge.svg)](https://github.com/gty198/subs-butler/actions/workflows/tests.yml)
+[![license: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
+[![dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](subs.py)
+
 > Local subscription renewal tracker — **CLI + web panel + renewal reminders**. Zero dependencies, one JSON file, no network calls.
 
 Track every subscription you pay for, and get reminded *before* it charges you again.
