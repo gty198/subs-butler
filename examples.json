@@ -1,0 +1,70 @@
+{
+  "_说明": "订阅管家数据文件。字段: id / name / amount / currency / cycle(weekly|biweekly|monthly|quarterly|semiannual|yearly|custom_days) / cycle_days / next_due(YYYY-MM-DD) / auto_renew / category / notes / active / anchor_day(每月固定几号扣费) / history。下面 4 条是示例数据，替换成你自己的即可。",
+  "updated_at": "2026-09-15 16:30:00",
+  "subscriptions": [
+    {
+      "id": "netflix",
+      "name": "Netflix 高级会员",
+      "amount": 68.0,
+      "currency": "CNY",
+      "cycle": "monthly",
+      "cycle_days": null,
+      "next_due": "2026-09-18",
+      "auto_renew": true,
+      "category": "影音",
+      "notes": "示例数据 · 拼车 4 人分摊",
+      "active": true,
+      "anchor_day": 18,
+      "created_at": "2026-09-15",
+      "history": []
+    },
+    {
+      "id": "icloud-200g",
+      "name": "iCloud+ 200GB",
+      "amount": 21.0,
+      "currency": "CNY",
+      "cycle": "monthly",
+      "cycle_days": null,
+      "next_due": "2026-09-21",
+      "auto_renew": true,
+      "category": "云存储",
+      "notes": "示例数据",
+      "active": true,
+      "anchor_day": 21,
+      "created_at": "2026-09-15",
+      "history": []
+    },
+    {
+      "id": "vps-hk",
+      "name": "香港 VPS",
+      "amount": 12.0,
+      "currency": "USD",
+      "cycle": "monthly",
+      "cycle_days": null,
+      "next_due": "2026-09-14",
+      "auto_renew": false,
+      "category": "服务器",
+      "notes": "示例数据 · 手动付款，过期会停机",
+      "active": true,
+      "anchor_day": 14,
+      "created_at": "2026-09-15",
+      "history": []
+    },
+    {
+      "id": "adobe-photo",
+      "name": "Adobe 摄影计划",
+      "amount": 888.0,
+      "currency": "CNY",
+      "cycle": "yearly",
+      "cycle_days": null,
+      "next_due": "2027-03-10",
+      "auto_renew": true,
+      "category": "工具",
+      "notes": "示例数据 · 年付，到期前想看看要不要降级",
+      "active": true,
+      "anchor_day": 10,
+      "created_at": "2026-09-15",
+      "history": []
+    }
+  ]
+}

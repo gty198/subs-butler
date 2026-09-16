@@ -1,0 +1,20 @@
+# 本地草稿与个人数据（不要提交）
+subscriptions.json
+.panel_token
+phone-access.png
+preview/
+*.local.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.Python
+*.egg-info/
+
+# 编辑器 / 系统
+.DS_Store
+.idea/
+.vscode/
+*.swp
